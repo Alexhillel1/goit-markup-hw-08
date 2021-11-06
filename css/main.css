@@ -125,6 +125,7 @@ img {
 @media screen and (max-width: 767px) {
   .header__section {
     max-width: 767px;
+    font-size: 12px;
   }
 }
 
@@ -244,6 +245,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-contact__link {
     padding: 0;
+    font-size: 12px;
   }
 }
 
@@ -903,19 +905,26 @@ img {
   margin-top: 20px;
 }
 
-.footer-contact__address {
-  color: var(--white-text-color);
-}
-
 .footer-contact__item {
   margin-top: 9px;
+}
+
+.footer-contact__address {
+  color: #fff;
+}
+
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-number {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contact__link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--footer-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
